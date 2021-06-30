@@ -1,0 +1,11 @@
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: rgb(89, 212, 41);
+}
+
+@mixin info3() {
+  color: rgb(216, 216, 216);
+  font-size: 4rem;
+  font-family: monospace;
+}
